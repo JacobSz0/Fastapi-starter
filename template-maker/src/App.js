@@ -54,7 +54,7 @@ function App() {
     // Create a download link
     const link = document.createElement('a');
     link.href = url;
-    link.setAttribute('download', 'my_python_file.py');
+    link.setAttribute('download', 'app.py');
     document.body.appendChild(link);
 
     // Simulate a click to trigger the download
